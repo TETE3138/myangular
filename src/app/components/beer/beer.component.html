@@ -1,0 +1,10 @@
+
+<h2>Beer List</h2>
+<ul>
+  <li style="list-style-type: none" *ngFor="let beer of beerList;">
+    <img src="{{beer.image_url}}" style="width: auto;height: 200px">
+      {{beer.name}}
+      <hr>
+  </li>
+
+</ul>
