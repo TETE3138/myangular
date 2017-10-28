@@ -3,4 +3,13 @@
     <a routerLink="about">About US</a>
     <a routerLink="beer">Beer</a>
 </nav>
+<div id='fullPage'>
+	<app-header></app-header>
+	<div id="content">
+        	<router-outlet></router-outlet>
+	</div>
+	<app-footer></app-footer>
+</div>
+
+
 <router-outlet></router-outlet>
